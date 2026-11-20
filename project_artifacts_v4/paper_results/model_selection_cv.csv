@@ -1,0 +1,4 @@
+candidate,cv_accuracy,cv_macro_f1,cv_balanced_accuracy,cv_log_loss,cv_ece,cv_top2,temperature
+Range-aware Bayes model,0.8545,0.8452,0.8292,0.2623,0.0075,0.9899,1.0687
+Hybrid stack (4 tree models + Bayes),0.8563,0.8462,0.8325,0.2682,0.0094,0.9882,1.0126
+v2 stacking ensemble (RF+LGB+XGB+CatBoost),0.8491,0.8409,0.8302,0.287,0.0256,0.9868,0.9997

@@ -1,0 +1,6 @@
+setting,bins,alpha,accuracy,log_loss
+0,range edges only,0.03,0.8559,0.2633
+1,range edges only,0.1,0.856,0.263
+2,range edges only,0.5,0.8568,0.2636
+3,range edges + sub-bins,0.1,0.8541,0.2642
+4,range edges + sub-bins,0.5,0.8548,0.2651

@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+/* =====================================================================
+   Tailwind v4 DARK MODE – class strategy
+   @custom-variant overrides the default `prefers-color-scheme` dark mode.
+   All `dark:` utility classes now activate whenever an ancestor has the
+   `.dark` class — which App.tsx applies to <html> when the user toggles.
+   The `:where(.dark, .dark *)` form covers the element itself AND its
+   descendants, ensuring every dark: utility fires correctly.
+   ===================================================================== */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --color-primary: #0f766e;
+    --color-primary-hover: #115e59;
+    --color-primary-light: #ccfbf1;
+    --color-confident: #15803d;
+    --color-confident-light: #dcfce7;
+    --color-review: #b45309;
+    --color-review-light: #fef3c7;
+    --color-neutral: #475569;
+    --color-neutral-light: #f1f5f9;
+    --color-error: #b91c1c;
+    --color-error-light: #fee2e2;
+
+    --bg-app: #f8fafc;
+    --bg-card: #ffffff;
+    --border-card: #e2e8f0;
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+  }
+
+  .dark {
+    --color-primary: #14b8a6;
+    --color-primary-hover: #2dd4bf;
+    --color-primary-light: rgba(20, 184, 166, 0.15);
+    --color-confident: #22c55e;
+    --color-confident-light: rgba(34, 197, 94, 0.15);
+    --color-review: #f59e0b;
+    --color-review-light: rgba(245, 158, 11, 0.15);
+    --color-neutral: #94a3b8;
+    --color-neutral-light: rgba(148, 163, 184, 0.15);
+    --color-error: #ef4444;
+    --color-error-light: rgba(239, 68, 68, 0.15);
+
+    --bg-app: #090d16;
+    --bg-card: #0f172a;
+    --border-card: #1e293b;
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+  }
+
+  /* Smooth colour transitions when toggling theme (exclude animations) */
+  *:not(.animate-spin):not(.animate-pulse):not(.animate-bounce) {
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: ease;
+    transition-duration: 200ms;
+  }
+
+  body {
+    background-color: var(--bg-app);
+    color: var(--text-main);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+}
+
+/* Custom styles for clinical badges */
+.badge-confident {
+  background-color: var(--color-confident-light);
+  color: var(--color-confident);
+  border: 1px solid var(--color-confident);
+}
+
+.badge-review {
+  background-color: var(--color-review-light);
+  color: var(--color-review);
+  border: 1px solid var(--color-review);
+}
+
+.badge-insufficient {
+  background-color: var(--color-neutral-light);
+  color: var(--color-neutral);
+  border: 1px solid var(--color-neutral);
+}
+
+/* Print Stylesheet for 1-page clinical summary */
+@media print {
+  nav, footer, .no-print, button, .session-history-section {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .card-container {
+    border: 1px solid #cbd5e1 !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+  }
+
+  .results-panel {
+    page-break-inside: avoid;
+  }
+}
+
+@media screen {
+  .print-only {
+    display: none !important;
+  }
+}

@@ -1,0 +1,3 @@
+protocol,ours_vs,only_ours_right,only_theirs_right,p_value
+"BMC 2026 protocol (80/20, seed 42)",XGBoost (their settings),105,93,0.4344
+"PeerJ 2025 protocol, no oversampling (70/30, seed 42)",best re-implemented model,161,144,0.3596

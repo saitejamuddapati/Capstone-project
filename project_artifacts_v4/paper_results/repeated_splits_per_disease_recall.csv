@@ -1,0 +1,5 @@
+model,recall_AS_mean,recall_AS_std,recall_Normal_mean,recall_Normal_std,recall_PsA_mean,recall_PsA_std,recall_ReA_mean,recall_ReA_std,recall_RA_mean,recall_RA_std,recall_Sjogren_mean,recall_Sjogren_std,recall_SLE_mean,recall_SLE_std
+Hybrid stack (4 tree models + Bayes),0.6013,0.0289,0.8108,0.0246,0.9205,0.0233,0.5922,0.066,0.9529,0.0081,0.9417,0.0146,0.9911,0.0083
+Range-aware Bayes model,0.6304,0.026,0.8087,0.0228,0.9187,0.0177,0.5818,0.0618,0.9412,0.0091,0.9543,0.017,0.9887,0.0062
+XGBoost,0.6401,0.0339,0.8241,0.0209,0.897,0.0235,0.6299,0.061,0.919,0.0073,0.9378,0.0159,0.9837,0.0104
+v2 stacking ensemble (RF+LGB+XGB+CatBoost),0.6273,0.0289,0.822,0.0245,0.909,0.0215,0.6273,0.0642,0.9162,0.0117,0.9302,0.016,0.9901,0.009

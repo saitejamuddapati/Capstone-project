@@ -1,0 +1,16 @@
+protocol,model,test_patients,accuracy,macro_f1,balanced_accuracy,recall_AS,recall_ReA,note
+"BMC 2026 protocol (80/20, seed 42)","Random Forest (their settings, re-implemented)",2417,0.842,0.7968,0.786,0.5365,0.2816,
+"BMC 2026 protocol (80/20, seed 42)","XGBoost (their settings, re-implemented)",2417,0.8589,0.8532,0.842,0.6118,0.6699,trees not reported; 100 chosen by training CV
+"BMC 2026 protocol (80/20, seed 42)","LightGBM (their settings, re-implemented)",2417,0.8432,0.8411,0.8339,0.6424,0.699,trees not reported; 300 chosen by training CV
+"BMC 2026 protocol (80/20, seed 42)","XGBoost, imputation fitted on ALL data (as described in the paper)",2417,0.8602,0.8526,0.8423,0.6024,0.6699,leaky variant
+"BMC 2026 protocol (80/20, seed 42)",OURS: Range-aware Bayes (no imputation),2417,0.8639,0.8615,0.8465,0.6471,0.6505,
+"BMC 2026 protocol (80/20, seed 42)","Published: XGBoost (paper, Table 2)",2417,0.8548,,,,,as reported
+"BMC 2026 protocol (80/20, seed 42)","Published: Random Forest (paper, Table 2)",2417,0.8378,,,,,as reported (their confusion matrix implies 84.24%)
+"PeerJ 2025 protocol, no oversampling (70/30, seed 42)","Gradient Boosting (their settings, re-implemented)",3626,0.8536,0.8479,0.8328,0.6301,0.6258,
+"PeerJ 2025 protocol, no oversampling (70/30, seed 42)","Random Forest (their settings, re-implemented)",3626,0.8436,0.8305,0.8127,0.6364,0.5226,
+"PeerJ 2025 protocol, no oversampling (70/30, seed 42)",OURS: Range-aware Bayes (no imputation),3626,0.8582,0.8526,0.8382,0.6254,0.6194,
+"PeerJ 2025 protocol, no oversampling (70/30, seed 42)","Published: Gradient Boosting, unbalanced data (paper, Table 11)",3626,0.8392,,,,,as reported
+PeerJ oversampling check (70/30),"Gradient Boosting, oversampled BEFORE split (as in the paper)",4372,0.8717,0.8709,0.8708,0.616,0.9456,752 of 901 ReA test cases are synthetic
+PeerJ oversampling check (70/30),"  same model, scored on the REAL test patients only",3620,0.845,0.8365,0.8316,0.616,0.6711,
+PeerJ oversampling check (70/30),"Gradient Boosting, oversampled AFTER split (training only)",3626,0.8527,0.8479,0.8384,0.6442,0.6774,honest version
+PeerJ oversampling check (70/30),"Published: Gradient Boosting, balanced data (paper, Table 13)",4355,0.8689,,,,,as reported; test includes synthetic patients

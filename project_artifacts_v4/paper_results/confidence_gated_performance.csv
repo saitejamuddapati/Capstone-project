@@ -1,0 +1,4 @@
+target_accuracy,confidence_threshold,test_coverage,test_accuracy,flagged_patients_accuracy
+0.9,0.551,0.8847,0.9071,0.5072
+0.95,0.6666,0.7557,0.9657,0.5372
+0.97,0.6954,0.7154,0.9792,0.564

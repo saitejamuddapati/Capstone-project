@@ -1,0 +1,16 @@
+true,predicted,patients,share_of_true_class
+AS,RA,79,0.2476
+AS,PsA,36,0.1129
+RA,AS,31,0.0726
+Normal,Sjogren,29,0.1203
+PsA,AS,20,0.0746
+Sjogren,Normal,18,0.0647
+ReA,AS,17,0.2208
+ReA,RA,9,0.1169
+Normal,PsA,6,0.0249
+PsA,RA,2,0.0075
+RA,PsA,1,0.0023
+RA,ReA,1,0.0023
+RA,Sjogren,1,0.0023
+Sjogren,RA,1,0.0036
+SLE,Sjogren,1,0.0049

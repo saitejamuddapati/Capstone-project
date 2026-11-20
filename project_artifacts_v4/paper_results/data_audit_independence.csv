@@ -1,0 +1,8 @@
+disease,max_abs_within_disease_correlation
+Ankylosing Spondylitis,0.0731
+Normal,0.1274
+Psoriatic Arthritis,0.0701
+Reactive Arthritis,0.1288
+Rheumatoid Arthritis,0.0588
+Sjögren's Syndrome,0.0817
+Systemic Lupus Erythematosus,0.1106

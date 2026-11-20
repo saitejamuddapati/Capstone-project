@@ -1,0 +1,5 @@
+model,accuracy_mean,accuracy_std,macro_f1_mean,macro_f1_std,balanced_accuracy_mean,balanced_accuracy_std,log_loss_mean,log_loss_std,ece_mean,ece_std,top2_accuracy_mean,top2_accuracy_std
+Range-aware Bayes model,0.8576,0.0066,0.8483,0.007,0.832,0.0074,0.2573,0.0097,0.013,0.004,0.9899,0.0019
+Hybrid stack (4 tree models + Bayes),0.8546,0.0075,0.8446,0.0087,0.8301,0.0086,0.2628,0.0099,0.0171,0.0053,0.9897,0.0014
+XGBoost,0.8519,0.0075,0.8459,0.0085,0.8331,0.0084,0.2918,0.0097,0.0287,0.0054,0.9892,0.0022
+v2 stacking ensemble (RF+LGB+XGB+CatBoost),0.8499,0.0077,0.8425,0.0087,0.8317,0.0083,0.2782,0.0099,0.0269,0.006,0.9891,0.0022

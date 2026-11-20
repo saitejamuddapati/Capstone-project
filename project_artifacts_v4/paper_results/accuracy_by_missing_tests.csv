@@ -1,0 +1,5 @@
+group,patients,accuracy
+0-1 missing,321,0.8941
+2-3 missing,976,0.876
+4-5 missing,454,0.8216
+6+ missing,62,0.7419

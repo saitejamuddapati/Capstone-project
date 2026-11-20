@@ -1,0 +1,2 @@
+flagged_patients_with_missing_tests,mean_current_confidence,expected_confidence_after_recommended_test,expected_confidence_after_random_missing_test,chance_confident_after_recommended_test,chance_confident_after_random_missing_test
+428,0.5593,0.701,0.6203,0.4319,0.1908

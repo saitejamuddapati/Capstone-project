@@ -1,0 +1,11 @@
+compared_with,only_proposed_right,only_other_right,net_gain_patients,p_value,significant_at_0_05
+Logistic Regression (baseline),190,105,85,0.0,True
+LightGBM + median imputation (previous approach),147,99,48,0.0027,True
+Random Forest,114,81,33,0.0217,True
+LightGBM,117,75,42,0.003,True
+XGBoost,83,60,23,0.0654,False
+CatBoost,100,58,42,0.001,True
+Soft-voting average (4 tree models),93,63,30,0.0199,True
+"Range-aware Bayes, equal disease weights",107,54,53,0.0,True
+v2 stacking ensemble (RF+LGB+XGB+CatBoost),77,64,13,0.3122,False
+Hybrid stack (4 tree models + Bayes),62,50,12,0.2986,False
