@@ -1,0 +1,147 @@
+{
+  "classes": [
+    "Ankylosing Spondylitis",
+    "Normal",
+    "Psoriatic Arthritis",
+    "Reactive Arthritis",
+    "Rheumatoid Arthritis",
+    "Sjögren's Syndrome",
+    "Systemic Lupus Erythematosus"
+  ],
+  "short": [
+    "AS",
+    "Normal",
+    "PsA",
+    "ReA",
+    "RA",
+    "Sjogren",
+    "SLE"
+  ],
+  "source": "training patients only",
+  "profiles": {
+    "Ankylosing Spondylitis": {
+      "ESR": 32.0,
+      "CRP": 21.4,
+      "RF": 20.8,
+      "Anti-CCP": 19.8,
+      "C3": 140.0,
+      "C4": 42.0,
+      "HLA-B27": 1.0,
+      "ANA": 0.49556809024979853,
+      "Anti-Ro": 0.4992636229749632,
+      "Anti-La": 0.5139296187683284,
+      "Anti-dsDNA": 0.47623318385650226,
+      "Anti-Sm": 0.5019120458891013
+    },
+    "Normal": {
+      "ESR": 8.0,
+      "CRP": 1.6,
+      "RF": 10.2,
+      "Anti-CCP": 9.850000000000001,
+      "C3": 139.0,
+      "C4": 41.0,
+      "HLA-B27": 0.5414507772020726,
+      "ANA": 0.5042283298097252,
+      "Anti-Ro": 0.5101253616200578,
+      "Anti-La": 0.4947569113441373,
+      "Anti-dsDNA": 0.4902439024390244,
+      "Anti-Sm": 0.4934725848563969
+    },
+    "Psoriatic Arthritis": {
+      "ESR": 40.0,
+      "CRP": 22.9,
+      "RF": 10.0,
+      "Anti-CCP": 9.9,
+      "C3": 133.5,
+      "C4": 42.0,
+      "HLA-B27": 0.5019762845849802,
+      "ANA": 0.4639076034648701,
+      "Anti-Ro": 0.5127551020408163,
+      "Anti-La": 0.5069808027923212,
+      "Anti-dsDNA": 0.49301825993555315,
+      "Anti-Sm": 0.5102974828375286
+    },
+    "Reactive Arthritis": {
+      "ESR": 25.0,
+      "CRP": 15.8,
+      "RF": 19.15,
+      "Anti-CCP": 19.8,
+      "C3": 139.0,
+      "C4": 42.0,
+      "HLA-B27": 1.0,
+      "ANA": 0.5100671140939598,
+      "Anti-Ro": 0.5121212121212121,
+      "Anti-La": 0.5015197568389058,
+      "Anti-dsDNA": 0.5168539325842697,
+      "Anti-Sm": 0.5061728395061729
+    },
+    "Rheumatoid Arthritis": {
+      "ESR": 35.0,
+      "CRP": 20.6,
+      "RF": 30.5,
+      "Anti-CCP": 30.35,
+      "C3": 143.0,
+      "C4": 42.0,
+      "HLA-B27": 0.49529003470500743,
+      "ANA": 0.5085951393005335,
+      "Anti-Ro": 0.48781808337845156,
+      "Anti-La": 0.5267558528428093,
+      "Anti-dsDNA": 0.4983096686950642,
+      "Anti-Sm": 0.4882179675994109
+    },
+    "Sjögren's Syndrome": {
+      "ESR": 8.0,
+      "CRP": 1.5,
+      "RF": 20.0,
+      "Anti-CCP": 20.8,
+      "C3": 139.0,
+      "C4": 42.0,
+      "HLA-B27": 0.48392036753445633,
+      "ANA": 1.0,
+      "Anti-Ro": 1.0,
+      "Anti-La": 1.0,
+      "Anti-dsDNA": 0.5161290322580645,
+      "Anti-Sm": 0.494949494949495
+    },
+    "Systemic Lupus Erythematosus": {
+      "ESR": 8.0,
+      "CRP": 1.6,
+      "RF": 19.8,
+      "Anti-CCP": 20.4,
+      "C3": 68.0,
+      "C4": 7.0,
+      "HLA-B27": 0.5062370062370062,
+      "ANA": 1.0,
+      "Anti-Ro": 0.484393063583815,
+      "Anti-La": 0.5337209302325582,
+      "Anti-dsDNA": 1.0,
+      "Anti-Sm": 1.0
+    }
+  },
+  "lab_ranges": {
+    "ESR": [
+      0.0,
+      49.0
+    ],
+    "CRP": [
+      0.1,
+      30.0
+    ],
+    "RF": [
+      0.0,
+      40.0
+    ],
+    "Anti-CCP": [
+      0.0,
+      40.0
+    ],
+    "C3": [
+      50.0,
+      205.0
+    ],
+    "C4": [
+      5.0,
+      74.0
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+,clean,noise_5pct,noise_10pct,shift_plus_5pct,shift_minus_5pct,serology_flip_5pct,two_more_missing
+v2 stacking ensemble (RF+LGB+XGB+CatBoost),0.0,-0.0276,-0.0622,-0.0245,-0.0435,-0.0078,-0.0783
+Range-aware Bayes model,0.0,-0.0331,-0.0781,-0.0489,-0.0311,-0.0135,-0.0647
+Hybrid stack (4 tree models + Bayes),0.0,-0.0277,-0.0656,-0.0356,-0.0309,-0.013,-0.0752
+"XGBoost (single model, reference)",0.0,-0.0368,-0.0682,-0.0214,-0.0633,-0.0116,-0.0735

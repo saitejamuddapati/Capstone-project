@@ -1,0 +1,268 @@
+[
+  {
+    "true_disease": "Ankylosing Spondylitis",
+    "patient": {
+      "Age": 29,
+      "Gender": "Male",
+      "ESR": 28.0,
+      "CRP": 21.8,
+      "RF": 32.5,
+      "Anti-CCP": 18.2,
+      "HLA-B27": "Positive",
+      "ANA": "Negative",
+      "Anti-Ro": "Negative",
+      "Anti-La": "Positive",
+      "Anti-dsDNA": "Negative",
+      "Anti-Sm": "Negative",
+      "C3": 137.0,
+      "C4": 51.0
+    }
+  },
+  {
+    "true_disease": "Ankylosing Spondylitis",
+    "patient": {
+      "Age": 64,
+      "Gender": "Male",
+      "ESR": null,
+      "CRP": 27.7,
+      "RF": 13.3,
+      "Anti-CCP": 26.6,
+      "HLA-B27": "Positive",
+      "ANA": "Negative",
+      "Anti-Ro": null,
+      "Anti-La": "Positive",
+      "Anti-dsDNA": null,
+      "Anti-Sm": "Positive",
+      "C3": 189.0,
+      "C4": 55.0
+    }
+  },
+  {
+    "true_disease": "Normal",
+    "patient": {
+      "Age": 58,
+      "Gender": "Female",
+      "ESR": 12.0,
+      "CRP": 0.8,
+      "RF": 10.4,
+      "Anti-CCP": 14.5,
+      "HLA-B27": "Positive",
+      "ANA": "Positive",
+      "Anti-Ro": "Positive",
+      "Anti-La": null,
+      "Anti-dsDNA": null,
+      "Anti-Sm": null,
+      "C3": 116.0,
+      "C4": 63.0
+    }
+  },
+  {
+    "true_disease": "Normal",
+    "patient": {
+      "Age": 43,
+      "Gender": "Female",
+      "ESR": 14.0,
+      "CRP": 1.9,
+      "RF": 3.2,
+      "Anti-CCP": 3.9,
+      "HLA-B27": null,
+      "ANA": "Positive",
+      "Anti-Ro": "Positive",
+      "Anti-La": "Positive",
+      "Anti-dsDNA": "Positive",
+      "Anti-Sm": "Positive",
+      "C3": 111.0,
+      "C4": 18.0
+    }
+  },
+  {
+    "true_disease": "Psoriatic Arthritis",
+    "patient": {
+      "Age": 59,
+      "Gender": "Male",
+      "ESR": 38.0,
+      "CRP": 20.6,
+      "RF": 19.0,
+      "Anti-CCP": 4.2,
+      "HLA-B27": "Positive",
+      "ANA": "Negative",
+      "Anti-Ro": "Negative",
+      "Anti-La": "Positive",
+      "Anti-dsDNA": "Negative",
+      "Anti-Sm": null,
+      "C3": 169.0,
+      "C4": 54.0
+    }
+  },
+  {
+    "true_disease": "Psoriatic Arthritis",
+    "patient": {
+      "Age": 59,
+      "Gender": "Male",
+      "ESR": 37.0,
+      "CRP": 27.6,
+      "RF": null,
+      "Anti-CCP": 1.6,
+      "HLA-B27": "Negative",
+      "ANA": null,
+      "Anti-Ro": null,
+      "Anti-La": null,
+      "Anti-dsDNA": "Negative",
+      "Anti-Sm": "Negative",
+      "C3": 125.0,
+      "C4": 45.0
+    }
+  },
+  {
+    "true_disease": "Reactive Arthritis",
+    "patient": {
+      "Age": 76,
+      "Gender": "Male",
+      "ESR": 28.0,
+      "CRP": 18.8,
+      "RF": 36.0,
+      "Anti-CCP": null,
+      "HLA-B27": "Positive",
+      "ANA": "Negative",
+      "Anti-Ro": null,
+      "Anti-La": "Negative",
+      "Anti-dsDNA": "Negative",
+      "Anti-Sm": "Negative",
+      "C3": 140.0,
+      "C4": 64.0
+    }
+  },
+  {
+    "true_disease": "Reactive Arthritis",
+    "patient": {
+      "Age": 44,
+      "Gender": "Male",
+      "ESR": 22.0,
+      "CRP": 14.4,
+      "RF": 28.7,
+      "Anti-CCP": null,
+      "HLA-B27": null,
+      "ANA": null,
+      "Anti-Ro": "Negative",
+      "Anti-La": null,
+      "Anti-dsDNA": "Negative",
+      "Anti-Sm": "Positive",
+      "C3": null,
+      "C4": null
+    }
+  },
+  {
+    "true_disease": "Rheumatoid Arthritis",
+    "patient": {
+      "Age": 51,
+      "Gender": "Female",
+      "ESR": 33.0,
+      "CRP": null,
+      "RF": 38.9,
+      "Anti-CCP": 28.7,
+      "HLA-B27": "Positive",
+      "ANA": "Negative",
+      "Anti-Ro": "Positive",
+      "Anti-La": "Positive",
+      "Anti-dsDNA": "Positive",
+      "Anti-Sm": null,
+      "C3": 122.0,
+      "C4": 28.0
+    }
+  },
+  {
+    "true_disease": "Rheumatoid Arthritis",
+    "patient": {
+      "Age": 73,
+      "Gender": "Female",
+      "ESR": 32.0,
+      "CRP": 13.6,
+      "RF": null,
+      "Anti-CCP": 39.0,
+      "HLA-B27": "Positive",
+      "ANA": null,
+      "Anti-Ro": "Positive",
+      "Anti-La": null,
+      "Anti-dsDNA": null,
+      "Anti-Sm": "Positive",
+      "C3": 136.0,
+      "C4": 18.0
+    }
+  },
+  {
+    "true_disease": "Sjögren's Syndrome",
+    "patient": {
+      "Age": 38,
+      "Gender": "Male",
+      "ESR": 3.0,
+      "CRP": 0.8,
+      "RF": 20.0,
+      "Anti-CCP": 28.9,
+      "HLA-B27": "Positive",
+      "ANA": "Positive",
+      "Anti-Ro": "Positive",
+      "Anti-La": "Positive",
+      "Anti-dsDNA": "Negative",
+      "Anti-Sm": null,
+      "C3": 141.0,
+      "C4": null
+    }
+  },
+  {
+    "true_disease": "Sjögren's Syndrome",
+    "patient": {
+      "Age": 49,
+      "Gender": "Female",
+      "ESR": 12.0,
+      "CRP": 2.4,
+      "RF": 2.0,
+      "Anti-CCP": 14.9,
+      "HLA-B27": "Positive",
+      "ANA": null,
+      "Anti-Ro": "Positive",
+      "Anti-La": "Positive",
+      "Anti-dsDNA": null,
+      "Anti-Sm": "Negative",
+      "C3": 88.0,
+      "C4": 48.0
+    }
+  },
+  {
+    "true_disease": "Systemic Lupus Erythematosus",
+    "patient": {
+      "Age": 33,
+      "Gender": "Male",
+      "ESR": 14.0,
+      "CRP": 1.0,
+      "RF": 34.0,
+      "Anti-CCP": 35.9,
+      "HLA-B27": "Negative",
+      "ANA": "Positive",
+      "Anti-Ro": "Positive",
+      "Anti-La": null,
+      "Anti-dsDNA": "Positive",
+      "Anti-Sm": "Positive",
+      "C3": 52.0,
+      "C4": null
+    }
+  },
+  {
+    "true_disease": "Systemic Lupus Erythematosus",
+    "patient": {
+      "Age": 72,
+      "Gender": "Female",
+      "ESR": 4.0,
+      "CRP": null,
+      "RF": 23.2,
+      "Anti-CCP": 26.4,
+      "HLA-B27": "Negative",
+      "ANA": "Positive",
+      "Anti-Ro": null,
+      "Anti-La": "Negative",
+      "Anti-dsDNA": null,
+      "Anti-Sm": "Positive",
+      "C3": 64.0,
+      "C4": 7.0
+    }
+  }
+]

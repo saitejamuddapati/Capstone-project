@@ -1,0 +1,8 @@
+disease,precision,recall,f1,support,auc,specificity
+Ankylosing Spondylitis,0.75,0.6395,0.6904,319,0.96,0.9545
+Normal,0.9196,0.8548,0.886,241,0.9949,0.9885
+Psoriatic Arthritis,0.8512,0.9179,0.8833,268,0.9946,0.9722
+Reactive Arthritis,0.9808,0.6623,0.7907,77,0.9926,0.9994
+Rheumatoid Arthritis,0.812,0.9204,0.8628,427,0.986,0.9343
+Sjögren's Syndrome,0.8931,0.9317,0.912,278,0.9957,0.9798
+Systemic Lupus Erythematosus,1.0,0.9951,0.9975,203,1.0,1.0

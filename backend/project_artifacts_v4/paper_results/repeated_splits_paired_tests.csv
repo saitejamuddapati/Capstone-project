@@ -1,0 +1,4 @@
+compared_with,mean_gain_points,wins,losses,paired_t_p,wilcoxon_p,sign_test_p
+Hybrid stack (4 tree models + Bayes),0.3034,9,1,0.003,0.0078,0.0215
+XGBoost,0.5736,9,1,0.0058,0.0039,0.0215
+v2 stacking ensemble (RF+LGB+XGB+CatBoost),0.7722,9,1,0.0017,0.0059,0.0215

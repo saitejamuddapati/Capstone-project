@@ -1,0 +1,188 @@
+{
+  "version": "v4",
+  "final_model": "Range-aware Bayes model",
+  "main": {
+    "accuracy": 0.861003861003861,
+    "macro_f1": 0.860381251564916,
+    "weighted_f1": 0.8581362606064633,
+    "balanced_accuracy": 0.845945943153952,
+    "mcc": 0.834115614914302,
+    "kappa": 0.8330416555361347,
+    "auc_ovr": 0.9891086197350366,
+    "log_loss": 0.2517358816466654,
+    "brier": 0.169273709533179,
+    "ece": 0.015229916059485092,
+    "top2_accuracy": 0.9889685603971319
+  },
+  "ci": {
+    "accuracy": [
+      0.8444567015995588,
+      0.875896304467733
+    ],
+    "macro_f1": [
+      0.8416669454922121,
+      0.8775370671574501
+    ],
+    "balanced_accuracy": [
+      0.8260435265672204,
+      0.8655790784909775
+    ],
+    "auc_ovr": [
+      0.987255688173847,
+      0.9908981274325168
+    ],
+    "top2_accuracy": [
+      0.9840044125758411,
+      0.9933811362382791
+    ]
+  },
+  "per_class": [
+    {
+      "disease": "Ankylosing Spondylitis",
+      "precision": 0.75,
+      "recall": 0.6395,
+      "f1": 0.6904,
+      "support": 319,
+      "auc": 0.96,
+      "specificity": 0.9545
+    },
+    {
+      "disease": "Normal",
+      "precision": 0.9196,
+      "recall": 0.8548,
+      "f1": 0.886,
+      "support": 241,
+      "auc": 0.9949,
+      "specificity": 0.9885
+    },
+    {
+      "disease": "Psoriatic Arthritis",
+      "precision": 0.8512,
+      "recall": 0.9179,
+      "f1": 0.8833,
+      "support": 268,
+      "auc": 0.9946,
+      "specificity": 0.9722
+    },
+    {
+      "disease": "Reactive Arthritis",
+      "precision": 0.9808,
+      "recall": 0.6623,
+      "f1": 0.7907,
+      "support": 77,
+      "auc": 0.9926,
+      "specificity": 0.9994
+    },
+    {
+      "disease": "Rheumatoid Arthritis",
+      "precision": 0.812,
+      "recall": 0.9204,
+      "f1": 0.8628,
+      "support": 427,
+      "auc": 0.986,
+      "specificity": 0.9343
+    },
+    {
+      "disease": "Sj\u00f6gren's Syndrome",
+      "precision": 0.8931,
+      "recall": 0.9317,
+      "f1": 0.912,
+      "support": 278,
+      "auc": 0.9957,
+      "specificity": 0.9798
+    },
+    {
+      "disease": "Systemic Lupus Erythematosus",
+      "precision": 1.0,
+      "recall": 0.9951,
+      "f1": 0.9975,
+      "support": 203,
+      "auc": 1.0,
+      "specificity": 1.0
+    }
+  ],
+  "safe_mode": {
+    "threshold": 0.6666120907027187,
+    "coverage": 0.7556536127964699,
+    "accuracy": 0.9656934306569344,
+    "flagged_accuracy": 0.5372460496613995
+  },
+  "repeated_splits": {
+    "Range-aware Bayes model": {
+      "accuracy_mean": 0.8576392719249861,
+      "accuracy_std": 0.0066160542340564935,
+      "macro_f1_mean": 0.8482741141132386,
+      "macro_f1_std": 0.007037303223472465,
+      "balanced_accuracy_mean": 0.8319714872556394,
+      "balanced_accuracy_std": 0.00739726973565682,
+      "log_loss_mean": 0.25727772670063553,
+      "log_loss_std": 0.009664692946891092,
+      "ece_mean": 0.013016675752254386,
+      "ece_std": 0.003985554413173392,
+      "top2_accuracy_mean": 0.9899062327633755,
+      "top2_accuracy_std": 0.0018758854113895488
+    },
+    "Hybrid stack (4 tree models + Bayes)": {
+      "accuracy_mean": 0.8546056260341975,
+      "accuracy_std": 0.007514345886784952,
+      "macro_f1_mean": 0.8446051027748924,
+      "macro_f1_std": 0.008693457881616132,
+      "balanced_accuracy_mean": 0.8300799292292942,
+      "balanced_accuracy_std": 0.008586067043406488,
+      "log_loss_mean": 0.2627825994041479,
+      "log_loss_std": 0.009889487522804477,
+      "ece_mean": 0.017092936181611222,
+      "ece_std": 0.0052626111211388354,
+      "top2_accuracy_mean": 0.9897407611693326,
+      "top2_accuracy_std": 0.001405035717929247
+    },
+    "XGBoost": {
+      "accuracy_mean": 0.8519029233314948,
+      "accuracy_std": 0.007460394765682482,
+      "macro_f1_mean": 0.8459457655437415,
+      "macro_f1_std": 0.008505808528893237,
+      "balanced_accuracy_mean": 0.8330800026723729,
+      "balanced_accuracy_std": 0.008395394068142884,
+      "log_loss_mean": 0.2917507176986494,
+      "log_loss_std": 0.009695186864941821,
+      "ece_mean": 0.028699492700541805,
+      "ece_std": 0.00537247879231907,
+      "top2_accuracy_mean": 0.9892443463872034,
+      "top2_accuracy_std": 0.002179310459851
+    },
+    "v2 stacking ensemble (RF+LGB+XGB+CatBoost)": {
+      "accuracy_mean": 0.8499172642029785,
+      "accuracy_std": 0.007706451731567635,
+      "macro_f1_mean": 0.8425081905619347,
+      "macro_f1_std": 0.008740660023986465,
+      "balanced_accuracy_mean": 0.831716462977958,
+      "balanced_accuracy_std": 0.008331805678708613,
+      "log_loss_mean": 0.2782127899892163,
+      "log_loss_std": 0.00986540203342032,
+      "ece_mean": 0.026928138436070524,
+      "ece_std": 0.006031452638862841,
+      "top2_accuracy_mean": 0.9890788747931605,
+      "top2_accuracy_std": 0.002203221500856098
+    }
+  },
+  "ceiling": {
+    "ceiling_accuracy": 0.861835,
+    "ceiling_macro_f1": 0.8519041150733094,
+    "ceiling_balanced_accuracy": 0.8349030391470693,
+    "simulated_patients": 400000
+  },
+  "bayes_settings": {
+    "sub": null,
+    "alpha": 0.1
+  },
+  "tree_feature_set": "A_raw_14",
+  "temperature": 1.0687387024838455,
+  "unreadable_values": 0,
+  "shap_ok": true,
+  "cv_winner": "Range-aware Bayes model",
+  "deployed": "Range-aware Bayes model",
+  "robustness_decision": "KEPT: under 'noise_5pct' the CV winner (Range-aware Bayes model) scored 82.14% vs best alternative Hybrid stack (4 tree models + Bayes) 82.69% (switch needs >= 1.0 points) -> deploying Range-aware Bayes model",
+  "sensitivity_lambda": 0.55,
+  "runtime_min": 43.22088958422343,
+  "fast_mode": false
+}

@@ -49,16 +49,21 @@ class Settings(BaseSettings):
 
     def model_post_init(self, __context):
         if self.ARTIFACTS_DIR is None:
-            # Check for candidate artifact directories
-            v4_dir = self.BASE_DIR / "project_artifacts_v4"
-            v_dir = self.BASE_DIR / "project_artifacts"
-            if v4_dir.exists() and (v4_dir / "artifacts" / "model_bundle.pkl").exists():
-                self.ARTIFACTS_DIR = v4_dir
-            elif v_dir.exists() and (v_dir / "artifacts" / "model_bundle.pkl").exists():
-                self.ARTIFACTS_DIR = v_dir
-            else:
-                # Fallback to current directory resolution
-                self.ARTIFACTS_DIR = v4_dir
+            # Check for candidate artifact directories across local and Vercel services deployment paths
+            candidates = [
+                self.BASE_DIR / "project_artifacts_v4",
+                Path(__file__).resolve().parent.parent / "project_artifacts_v4",
+                Path(__file__).resolve().parent.parent.parent / "project_artifacts_v4",
+                Path.cwd() / "project_artifacts_v4",
+                Path.cwd() / "backend" / "project_artifacts_v4",
+                self.BASE_DIR / "project_artifacts",
+            ]
+            for c in candidates:
+                if c.exists() and (c / "artifacts" / "model_bundle.pkl").exists():
+                    self.ARTIFACTS_DIR = c
+                    break
+            if self.ARTIFACTS_DIR is None:
+                self.ARTIFACTS_DIR = self.BASE_DIR / "project_artifacts_v4"
 
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 

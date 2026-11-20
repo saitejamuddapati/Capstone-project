@@ -1,0 +1,9 @@
+# Exact versions used to train the model (Python 3.12.13). Final model: Range-aware Bayes model
+numpy==2.0.2
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.6.1
+joblib==1.5.3
+openpyxl==3.1.5
+fastapi
+uvicorn
